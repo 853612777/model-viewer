@@ -1,0 +1,23 @@
+commit 29ad64f3e84b74bb0fece0a5ebfc5ef2c48fa1a3
+Author: Emmett Lalish <elalish@google.com>
+Date:   Mon Apr 6 09:06:13 2020 -0700
+
+    Refactor pivot (#1112)
+    
+    * refactored pivot into its own class
+    
+    * fixed AR placement
+    
+    * removed pivot, moved methods to model
+    
+    * fixed shadow
+    
+    * fixed AR placement
+    
+    * moved target from SmoothControls to controls
+    
+    * fixed slow jump
+    
+    * skipping dirty scene tests for now
+    
+    * revert renderer change
